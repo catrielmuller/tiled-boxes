@@ -19,6 +19,7 @@
     "midi": "^0.9.5",
     "node-gameloop": "^0.1.4",
     "pngjs": "^3.3.3",
+    "robot-js": "github:Robot/robot-js#dev",
     "uuid": "^3.3.2"
   },
   "devDependencies": {

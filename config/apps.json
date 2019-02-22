@@ -2,25 +2,21 @@
   {
     "app":  "cpu-meter",
     "device": "one",
-    "position": { "x": 7, "y": 0 }
+    "position": { "x": 0, "y": 0 }
+  },
+  {
+    "app":  "shortcut",
+    "device": "one",
+    "position": { "x": 1, "y": 0 },
+    "props": {
+      "color": "red",
+      "keys": "%{TAB}"
+    }
   },
   {
     "app":  "testing/base",
     "device": "one",
-    "position": { "x": 0, "y": 7 }
-  },
-  {
-    "app":  "testing/props",
-    "device": "one",
-    "position": { "x": 0, "y": 0 },
-    "props": {
-      "color": "red"
-    }
-  },
-  {
-    "app":  "testing/props",
-    "device": "one",
-    "position": { "x": 1, "y": 0 },
+    "position": { "x": 0, "y": 7 },
     "props": {
       "color": "orange"
     }
@@ -28,31 +24,7 @@
   {
     "app":  "testing/props",
     "device": "one",
-    "position": { "x": 2, "y": 0 },
-    "props": {
-      "color": "yellow"
-    }
-  },
-  {
-    "app":  "testing/props",
-    "device": "one",
-    "position": { "x": 3, "y": 0 },
-    "props": {
-      "color": "green"
-    }
-  },
-  {
-    "app":  "testing/props",
-    "device": "one",
-    "position": { "x": 10, "y": 5 },
-    "props": {
-      "color": "green"
-    }
-  },
-  {
-    "app":  "testing/props",
-    "device": "one",
-    "position": { "x": 6, "y": 10 },
+    "position": { "x": 1, "y": 7 },
     "props": {
       "color": "green"
     }
