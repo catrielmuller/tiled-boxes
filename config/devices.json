@@ -1,0 +1,10 @@
+[
+  {
+    "id": "one",
+    "driver": "launchpad-s",
+    "props": {
+      "inputPort": 1,
+      "outputPort": 1
+    }
+  }
+]
