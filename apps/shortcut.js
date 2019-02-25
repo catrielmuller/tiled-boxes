@@ -12,7 +12,11 @@ module.exports = class Shortcut extends BaseApp {
     if (props.color) {
       this.color = props.color;
     }
-    this.icon = calpha(this.color, 1);
+    this.opacity = '1';
+    if (props.color) {
+      this.opacity = props.opacity;
+    }
+    this.icon = calpha(this.color, this.opacity);
     this.keyboard = robot.Keyboard();
 
     this.comand = false;

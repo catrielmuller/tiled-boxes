@@ -7,11 +7,27 @@
   {
     "app":  "shortcut",
     "device": "one",
-    "position": { "x": 1, "y": 0 },
+    "position": { "x": 7, "y": 1 },
     "props": {
-      "color": "red",
-      "keys": "%{TAB}"
+      "color": "green",
+      "opacity": "0.3",
+      "keys": "^%{UP}"
     }
+  },
+  {
+    "app":  "shortcut",
+    "device": "one",
+    "position": { "x": 7, "y": 0 },
+    "props": {
+      "color": "green",
+      "opacity": "0.3",
+      "keys": "^%{DOWN}"
+    }
+  },
+  {
+    "app":  "google-chrome",
+    "device": "one",
+    "position": { "x": 2, "y": 0 }
   },
   {
     "app":  "testing/base",
