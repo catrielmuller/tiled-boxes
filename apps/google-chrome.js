@@ -1,5 +1,4 @@
 const calpha = require('color-alpha');
-const robot = require('robot-js');
 const BaseApp = require('../lib/tiled-boxes/base/app');
 
 module.exports = class Shortcut extends BaseApp {
@@ -10,7 +9,6 @@ module.exports = class Shortcut extends BaseApp {
 
     this.icon = calpha('red', 0.3);
 
-    this.keyboard = robot.Keyboard();
     this.launched = false;
     this.tabs = false;
 
